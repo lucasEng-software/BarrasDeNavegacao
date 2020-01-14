@@ -14,10 +14,20 @@ ul a{
 	text-decoration: none;
 	text-indent: 50px;
 	line-height: 40px;
-	background: url(../imagens/menu.png) no-repeat left bottom;
+	background: #FE9A2E url(../imagens/menu.png) no-repeat left bottom;
 }
 
-a:hover{
+a:hover {
 	background-position:  right bottom;
+	background-color: #f99200;
+	color: #ffff;
+}
+
+#home #navegacao-lateral .home a,
+#sobre #navegacao-lateral .sobre a,
+#servicos #navegacao-lateral .servicos a{
+
+	background-position: right bottom;
+	background-color:#f99200;
 	color: #ffff;
 }
