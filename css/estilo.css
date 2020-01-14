@@ -1,3 +1,7 @@
+.titulo-pagina{
+	clear: both;
+}
+
 ul {
 
 	list-style-type: none;
@@ -7,7 +11,7 @@ ul {
 
 
 
-ul a{
+ul#navegacao-lateral a{
 	width: 200px;
 	height: 40px;
 	display: block;
@@ -17,7 +21,7 @@ ul a{
 	background: #FE9A2E url(../imagens/menu.png) no-repeat left bottom;
 }
 
-a:hover {
+#navegacao-lateral a:hover {
 	background-position:  right bottom;
 	background-color: #f99200;
 	color: #ffff;
@@ -29,5 +33,38 @@ a:hover {
 
 	background-position: right bottom;
 	background-color:#f99200;
+	color: #ffff;
+}
+
+#navegacao-horizontal a:hover {
+	background-position:  right bottom;	
+	color: #ffff;
+}
+
+ul#navegacao-horizontal li{
+	float: left;	
+}
+ul#navegacao-horizontal a{
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	text-decoration: none;
+	background: url(../imagens/divisor.png) repeat-y;
+
+}
+ul#navegacao-horizontal {
+
+
+	background:#089FB4 url(../imagens/fundo-horizontal.png) repeat-x;
+	float: left;
+	
+}
+
+#home #navegacao-horizontal .home a,
+#sobre #navegacao-horizontal .sobre a,
+#servicos #navegacao-horizontal .servicos a{
+
+	background-position: right bottom;
+	background-color:#0B0B61;
 	color: #ffff;
 }
